@@ -11,4 +11,10 @@ public class UserController {
     	System.out.println("회원가입페이지 구현");
         return "user/joinForm";
     }
+    
+    @GetMapping("/user/loginForm")
+    public String 로그인페이지() {
+    	System.out.println("로그인 페이지 완료");
+    	return "user/loginForm";
+    }
 }
