@@ -8,6 +8,7 @@ public class UserController {
 
     @GetMapping("/user/joinForm") // 화면 출력되는지 확인 완료
     public String 회원가입페이지() {
+    	System.out.println("회원가입페이지 구현");
         return "user/joinForm";
     }
 }
