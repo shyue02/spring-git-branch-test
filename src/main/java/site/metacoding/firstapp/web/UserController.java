@@ -14,6 +14,7 @@ public class UserController {
     
     @GetMapping("/user/loginForm")
     public String 로그인페이지() {
+    	System.out.println("로그인 페이지 완료");
     	return "user/loginForm";
     }
 }
