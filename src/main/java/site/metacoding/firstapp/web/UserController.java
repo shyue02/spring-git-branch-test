@@ -34,6 +34,7 @@ public class UserController {
     
     @GetMapping("/user/passwordUpdateForm")
     public String 비밀번호수정() {
+    	System.out.println("비밀번호 수정!");
     	return "user/passwordUpdateForm";
     }
 
