@@ -31,5 +31,12 @@ public class UserController {
     	System.out.println("'비밀번호 체크2");
     	return "user/passwordCheckForm";
     }
+    
+    @GetMapping("/user/passwordUpdateForm")
+    public String 비밀번호수정() {
+    	System.out.println("비밀번호 수정!");
+    	System.out.println("비밀번호 수정2");
+    	return "user/passwordUpdateForm";
+    }
 
 }
