@@ -17,4 +17,15 @@ public class UserController {
     	System.out.println("로그인 페이지 완료");
     	return "user/loginForm";
     }
+    
+    @GetMapping("/user/leaveCheckForm")
+    public String 회원탈퇴페이지() {
+    	return "user/leaveCheckForm";
+    }
+    
+    @GetMapping("/user/passwordCheckForm")
+    public String 비밀번호체크() {
+    	return "user/passwordCheckForm";
+    }
+
 }
