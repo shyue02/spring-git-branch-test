@@ -3,6 +3,8 @@ package site.metacoding.firstapp.web;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
+import ch.qos.logback.core.recovery.ResilientSyslogOutputStream;
+
 @Controller
 public class UserController {
 
@@ -25,6 +27,7 @@ public class UserController {
     
     @GetMapping("/user/passwordCheckForm")
     public String 비밀번호체크() {
+    	System.out.println("비밀번호 체크");
     	return "user/passwordCheckForm";
     }
 
