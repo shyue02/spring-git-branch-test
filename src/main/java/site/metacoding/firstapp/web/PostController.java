@@ -14,6 +14,7 @@ public class PostController {
 	
 	@GetMapping("/post/listForm")
 	public String 목록보기() {
+		System.out.println("listForm1");
 		return "post/listForm";
 	}
 
