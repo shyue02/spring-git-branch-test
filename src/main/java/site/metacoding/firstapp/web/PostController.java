@@ -7,13 +7,6 @@ import lombok.Delegate;
 
 @Controller
 public class PostController {
-	
-	@GetMapping("/category/listForm")
-	public String 목록보기() {
-		System.out.println("목록보기2");
-		return "category/listForm";
-	}
-
 	@GetMapping("/post/listForm")
 	public String 목록보기() {
 		System.out.println("listForm1");
