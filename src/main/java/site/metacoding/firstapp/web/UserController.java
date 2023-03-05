@@ -40,6 +40,7 @@ public class UserController {
     
     @GetMapping("/user/emailCheckForm")
     public String 이메일확인() {
+    	System.out.println("구현");
     	return "user/emailCheckForm";
     }
 
