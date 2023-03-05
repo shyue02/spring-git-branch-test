@@ -20,6 +20,7 @@ public class CategoryController {
 
 	@GetMapping("/post/writeForm")
 	public String 카테고리추가() {
+		System.out.println("카테고리추가2");
 		return "post/writeForm";
 	}
 }
