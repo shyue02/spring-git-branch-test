@@ -26,6 +26,7 @@ public class PostController {
 	
 	@GetMapping("/post/updateForm")
 	public String 게시글수정() {
+		System.out.println("게시글수정!");
 		return "post/updateForm";
 	}
 
