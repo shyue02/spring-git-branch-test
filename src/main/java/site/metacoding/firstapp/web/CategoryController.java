@@ -18,4 +18,8 @@ public class CategoryController {
 		return "post/listForm";
 	}
 
+	@GetMapping("/post/writeForm")
+	public String 카테고리추가() {
+		return "post/writeForm";
+	}
 }
