@@ -22,6 +22,7 @@ public class PostController {
 	
 	@GetMapping("/post/writeForm")
 	public String 게시글쓰기() {
+		System.out.println("writeForm");
 		return "post/writeForm";
 	}
 
